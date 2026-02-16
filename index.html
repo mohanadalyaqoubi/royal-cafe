@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رويال كافيه</title>
+    <meta name="description" content="كافيه رويال - أفضل القهوة والمشروبات والحلويات في أجواء راقية">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    
+                </div>
+                <div class="nav-actions">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Royal Cafe</h1>
+                <h2 class="hero-subtitle">جرعة السعادة اليومية تبدأ من هنا! ☕️</h2>
+                <div class="hero-buttons">
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="royal-logo.svg" alt="Royal Cafe - Premium Coffee" loading="lazy">
+            </div>
+        </div>
+        
+        <!-- Floating Brand Bar -->
+        <div class="floating-brand" id="floatingBrand">
+            <div class="brand-content">
+                <h2 class="brand-name">Royal Cafe</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">☕</div>
+                    <h3>قهوة مميزة</h3>
+                    <p>أجود أنواع البن المحمص بعناية</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌿</div>
+                    <h3>مكونات طبيعية</h3>
+                    <p>مكونات طبيعية 100% من مصادر موثوقة</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⭐</div>
+                    <h3>تجربة فاخرة</h3>
+                    <p>أجواء أنيقة مع خدمة ممتازة</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🕐</div>
+                    <h3>ارجيلة احترافية</h3>
+                    <p>نكهات أصلية وتجربة أصيلة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>قائمتنا</h2>
+                <p>اختر من تشكيلتنا المميزة</p>
+            </div>
+            
+            <!-- Category Tabs -->
+            <div class="category-tabs">
+                <button class="tab-btn" data-category="hot"><span>المشروبات الساخنة</span></button>
+                <button class="tab-btn" data-category="cold"><span>المشروبات الباردة</span></button>
+                <button class="tab-btn" data-category="hookah"><span>الارجيلة</span></button>
+            </div>
+
+            <!-- Menu List -->
+            <div class="menu-list" id="menuGrid">
+                <!-- Hot Drinks Items -->
+                <div class="menu-category" data-category="hot">
+                    <div class="menu-item-list">
+                        <div class="menu-row">
+                            <div class="item-info">
+                                <h3>قهوة</h3>
+                                <p>قهوة تركية عالية الجودة</p>
+                            </div>
+                            <div class="item-price">10 شيكل</div>
+                        </div>
+                        <div class="menu-row">
+                            <div class="item-info">
+                                <h3>شاي</h3>
+                                <p>شاي أحمر طبيعي</p>
+                            </div>
+                            <div class="item-price">10 شيكل</div>
+                        </div>
+                        <div class="menu-row">
+                            <div class="item-info">
+                                <h3>نسكافيه</h3>
+                                <p>نسكافيه كلاسيك</p>
+                            </div>
+                            <div class="item-price">10 شيكل</div>
+                        </div>
+                        <div class="menu-row">
+                            <div class="item-info">
+                                <h3>كابتشينو</h3>
+                                <p>كابتشينو إيطالي</p>
+                            </div>
+                            <div class="item-price">10 شيكل</div>
+                        </div>
+                        <div class="menu-row">
+                            <div class="item-info">
+                                <h3>شوكو</h3>
+                                <p>شوكولاتة ساخنة غنية</p>
+                            </div>
+                            <div class="item-price">10 شيكل</div>
+                        </div>
+                        <div class="menu-row">
+                            <div class="item-info">
+                                <h3>شاي لاتيه</h3>
+                                <p>شاي مع حليب ورغوة</p>
+                            </div>
+                            <div class="item-price">10 شيكل</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cold Drinks Items -->
+                <div class="menu-category" data-category="cold">
+                    <div class="menu-item-list">
+                        <div class="menu-row">
+                            <div class="item-info">
+                                <h3> كوكاكولا </h3>
+                                <p>مشروب منعش  وبارد  </p>
+                            </div>
+                            <div class="item-price">10 شيكل</div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Hookah Items -->
+                <div class="menu-category" data-category="hookah">
+                    <div class="menu-item-list">
+                        <div class="menu-row">
+                            <div class="item-info">
+                                <h3>ارجيلة فاخر</h3>
+                            </div>
+                            <div class="item-price">25 شيكل</div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Royal Cafe</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="فيسبوك">📘</a>
+                        <a href="#" aria-label="انستغرام">📷</a>
+                        <a href="#" aria-label="تويتر">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>ساعات العمل</h3>
+                    <p> - جميع أيام الأسبوع: 9:00 ص - 12:00 ص</p>
+                </div>
+                <div class="footer-section">
+                    <h3>التواصل</h3>
+                    <p>📍 شارع الوحدة ; مقابل برج شوا وحصري </p>
+                    <p>📞 +966 50 123 4567</p>
+                    <p>📧royalcafe@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Royal Cafe. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script-display.js"></script>
+</body>
+</html>
